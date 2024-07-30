@@ -7,6 +7,7 @@ String handleExceptionWithMessage(dynamic error) {
   } else if (error is TimeoutException) {
     return "The request timed out";
   } else {
+    print(error.toString());
     return "An error occurred, please try again";
   }
 }

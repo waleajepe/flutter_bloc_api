@@ -18,16 +18,16 @@ class ProductModel {
 }
 
 class Product {
-  final int id;
-  final String title;
-  final String description;
-  final int price;
-  final double discountPercentage;
-  final double rating;
-  final int stock;
-  final String brand;
-  final String category;
-  final String thumbnail;
+  final dynamic id;
+  final dynamic title;
+  final dynamic description;
+  final dynamic price;
+  final dynamic discountPercentage;
+  final dynamic rating;
+  final dynamic stock;
+  final dynamic brand;
+  final dynamic category;
+  final dynamic thumbnail;
   final List<String> images;
 
   Product({
